@@ -14,7 +14,7 @@ public abstract class DataForAutomationPracticeForm {
     protected String birthMonth = "March";
     protected Short birthYear = 1995;
 
-    protected String subjects = "Algorithms";
+    protected String[] subjects = new String[] {"Maths", "Social Studies"};
     protected String[] hobbies = new String[] {"Sports", "Music"};
     protected File picture = new File("src/test/resources/neo.jpg");
     protected String currentAddress = "some address";
