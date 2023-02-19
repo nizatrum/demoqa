@@ -1,56 +1,60 @@
-package homeWorksTests;
+package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.*;
+import pages.RegistrationPage;
+
+import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class AutomationPracticeFormTest extends DataForAutomationPracticeForm {
+public class RegistrationFormTests {
+    private final static String BASE_URL = "https://demoqa.com";
+    private final static String REGISTRATION_FORM_URL = "/automation-practice-form";
+    private final static String WINDOW_SIZE = "1920x1080";
+    RegistrationPage registrationPage = new RegistrationPage();
+    //variables static mode, but we don't create object RegistrationFormTests
+    public static String firstName = "Timur";
+    public static String lastName = "Murtazin";
+    public static String email = "mytestmail@company.com";
+    public static String gender = "Male";
+    public static String phoneNumber = "1234567891";
+    public static String birthDay = "21";
+    public static String birthMonth = "March";
+    public static String birthYear = "1995";
+    public static String[] subjects = new String[] {"Maths", "Social Studies"};
+    public static String[] hobbies = new String[] {"Sports", "Music"};
+    public static File picture = new File("src/test/resources/neo.jpg");
+    public static String currentAddress = "some address";
+    public static String state = "NCR";
+    public static String city = "Delhi";
+
     @BeforeAll
     static void beforeAll() {
         Configuration.baseUrl = BASE_URL;
         Configuration.browserSize = WINDOW_SIZE;
     }
     @Test
-    @DisplayName("Заполняем форму данными из DataForAutomationPracticeForm")
     void fillFormTest() {
-        open("/automation-practice-form"); //открываем
-        $("#firstName").setValue(firstName); //заполняем имя
-        $("#lastName").setValue(lastName); //заполняем фамилию
-        $("#userEmail").setValue(email); //заполняем почту
-        $(String.format("div.custom-radio input[value='%s'] +label", gender)).click(); //заполняем пол
-        $("#userNumber").setValue(phoneNumber); //заполняем номер телефона
-        //заполняем дату рождения
-        $("#dateOfBirthInput").click();
-        $("select[class*='month']").click();
-        $(byText(birthMonth)).click();
-        $("select[class*='year']").click();
-        $(String.format("option[value='%s']", birthYear)).click();
-        $(String.format("div[class*='day--0%s']", birthDay)).click();
-        //заполняем предметы
-        for (String subject : subjects) {
-            $("#subjectsInput").setValue(subject);
-            $x(String.format("//div[text()='%s' and @tabindex]", subject)).click();
-        }
-        //заполняем увлечения
-        for (String hobby : hobbies) {
-            $(byText(hobby)).click();
-        }
-        $("#uploadPicture").uploadFile(picture); // грузим фотку
-        $("#currentAddress").setValue(currentAddress); //заполняем фактический адрес
-        $("#state").scrollTo().click();
-        // заполняем state and city
-        $(byText(state)).click();
-        $("#city").scrollTo().click();
-        $(byText(city)).click();
-        // убираем лишние элементы, не позволяющие кликнуть submit
-        executeJavaScript("$('footer').hide()");
-        executeJavaScript("$('#close-fixedban').parent().hide();");
-        $("#submit").click(); // кликаем кнопку утверждения формы
-        // asserts
+        registrationPage.openRegistrationForm(REGISTRATION_FORM_URL);
+        registrationPage.setFirstName(firstName);
+        registrationPage.setLastName(lastName);
+        registrationPage.setEmail(email);
+        registrationPage.setGender(gender);
+        registrationPage.setPhoneNumber(phoneNumber);
+        registrationPage.setDateOfBirth(birthMonth, birthYear);
+        registrationPage.setSubjects(subjects);
+        registrationPage.setHobbies(hobbies);
+        registrationPage.uploadPicture(picture);
+        registrationPage.setCurrentAddress(currentAddress);
+        registrationPage.setState(state);
+        registrationPage.setCity(city);
+        registrationPage.removeInterceptingButtonElements();
+        registrationPage.confirmForm();
+
+        // asserts - проверки
         $(".modal-header").shouldBe(text("Thanks for submitting the form"));
         Assertions.assertEquals(
                 String.format("%s %s", firstName, lastName),
