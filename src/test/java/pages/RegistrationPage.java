@@ -12,7 +12,6 @@ import static com.codeborne.selenide.Selenide.*;
 public class RegistrationPage {
     //create component objects
     CalendarComponent calendarComponent = new CalendarComponent();
-
     //locators
     SelenideElement firstNameInput = $("#firstName");
     SelenideElement lastNameInput = $("#lastName");
@@ -30,13 +29,9 @@ public class RegistrationPage {
     SelenideElement submitButton = $("#submit");
     SelenideElement resultTable = $(".table-responsive");
     //actions
-    public void removeInterceptingButtonElements() {
+    public static void removeInterceptingButtonElements() {
         executeJavaScript("$('footer').hide()");
         executeJavaScript("$('#close-fixedban').parent().hide();");
-    }
-    public RegistrationPage openRegistrationForm(String url) {
-        open(url);
-        return this;
     }
     public RegistrationPage setFirstName(String firstName) {
         firstNameInput.setValue(firstName);
@@ -58,9 +53,9 @@ public class RegistrationPage {
         phoneNumberInput.setValue(phoneNumber);
         return this;
     }
-    public RegistrationPage setDateOfBirth(String month, String year) {
+    public RegistrationPage setDateOfBirth(String day, String month, String year) {
         dateOfBirthInput.click();
-        calendarComponent.datePadding(month, year);
+        calendarComponent.datePadding(day, month, year);
         return this;
     }
     public RegistrationPage setSubjects(String[] subjects) {
