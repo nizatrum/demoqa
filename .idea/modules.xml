@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/demoqa-tests.iml" filepath="$PROJECT_DIR$/demoqa-tests.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demoqa-tests.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demoqa-tests.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demoqa-tests.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demoqa-tests.test.iml" />
     </modules>
   </component>
