@@ -1,0 +1,190 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"a902aa97-cd10-4136-993a-3c1701c66999\" name=\"Changes\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2LYBjc0sz4IRE2r7t3Hxg0P2jOA\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"jdk.selected.JAVA_MODULE\": \"17\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\",\n    \"settings.editor.selected.configurable\": \"Console\"\n  }\n}]]></component>\n  <component name=\"RunManager\" selected=\"JUnit.FirstTest\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"org.example.Main\" />\n      <module name=\"demoqa-tests.main\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"org.example.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FirstJUnitTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;junit.FirstJUnitTest&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"FirstJUnitTest.simpleTest\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;junit.FirstJUnitTest.simpleTest&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"FirstTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"demoqa-tests.test\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"FirstTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FirstTest.searchVideoTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"demoqa-tests.test\" />\n      <option name=\"PACKAGE_NAME\" value=\"\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"FirstTest\" />\n      <option name=\"METHOD_NAME\" value=\"searchVideoTest\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.FirstTest\" />\n        <item itemvalue=\"JUnit.FirstTest.searchVideoTest\" />\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Gradle.FirstJUnitTest\" />\n        <item itemvalue=\"Gradle.FirstJUnitTest.simpleTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"a902aa97-cd10-4136-993a-3c1701c66999\" name=\"Changes\" comment=\"\" />\n      <created>1676038274847</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1676038274847</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,101 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a902aa97-cd10-4136-993a-3c1701c66999" name="Changes" comment="" />
++    <list default="true" id="a902aa97-cd10-4136-993a-3c1701c66999" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_beust_jcommander_1_82.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_codeborne_selenide_6_11_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_codeborne_selenide_core_6_11_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_auto_common_1_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_service_auto_service_1_0_1.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_service_auto_service_annotations_1_0_1.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_10_1.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_11_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_31_1_jre.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_typesafe_netty_netty_reactive_streams_2_0_4.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__dev_failsafe_failsafe_3_3_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_github_bonigarcia_webdrivermanager_5_3_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_buffer_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_http_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_codec_socks_4_1_60_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_common_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_handler_proxy_4_1_60_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_resolver_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_classes_epoll_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_classes_kqueue_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_kqueue_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_kqueue_osx_x86_64_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_netty_netty_transport_native_unix_common_4_1_87_Final.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_api_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_api_logs_1_22_0_alpha.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_context_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_exporter_logging_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_common_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_1_22_0_alpha.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_extension_autoconfigure_spi_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_logs_1_22_0_alpha.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_metrics_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_sdk_trace_1_22_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_opentelemetry_opentelemetry_semconv_1_22_0_alpha.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_ous_jtoml_2_0_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_12_22.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_compress_1_22.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_client5_httpclient5_5_2_1.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_core5_httpcore5_5_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_httpcomponents_core5_httpcore5_h2_5_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_2_12_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_asynchttpclient_async_http_client_netty_utils_2_12_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_brotli_dec_0_1_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_3_12_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_api_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chrome_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_chromium_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_devtools_v107_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_devtools_v108_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_devtools_v109_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_devtools_v85_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_edge_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_firefox_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_http_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_ie_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_java_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_json_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_manager_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_remote_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_safari_driver_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_seleniumhq_selenium_selenium_support_4_8_0.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_2_0_6.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules/demoqa-tests.main.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules/demoqa-tests.test.iml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/demoqa-tests.iml" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -15,6 +109,31 @@
+       <ProjectState />
+     </projectState>
+   </component>
++  <component name="ExternalProjectsManager">
++    <system id="GRADLE">
++      <state>
++        <task path="$PROJECT_DIR$">
++          <activation />
++        </task>
++        <projects_view>
++          <tree_state>
++            <expand>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="demoqa-tests" type="f1a62948:ProjectNode" />
++              </path>
++              <path>
++                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
++                <item name="demoqa-tests" type="f1a62948:ProjectNode" />
++                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
++              </path>
++            </expand>
++            <select />
++          </tree_state>
++        </projects_view>
++      </state>
++    </system>
++  </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
+@@ -29,6 +148,7 @@
+     <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2LYBjc0sz4IRE2r7t3Hxg0P2jOA" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+@@ -37,6 +157,7 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "jdk.selected.JAVA_MODULE": "17",
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.0",
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleMigrationSettings\" migrationVersion=\"1\" />\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	
++++ b/.idea/gradle.xml	
+@@ -1,4 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="GradleMigrationSettings" migrationVersion="1" />
++  <component name="GradleSettings">
++    <option name="linkedExternalProjectsSettings">
++      <GradleProjectSettings>
++        <option name="distributionType" value="DEFAULT_WRAPPED" />
++        <option name="externalProjectPath" value="$PROJECT_DIR$" />
++        <option name="modules">
++          <set>
++            <option value="$PROJECT_DIR$" />
++          </set>
++        </option>
++      </GradleProjectSettings>
++    </option>
++  </component>
+ </project>
+\ No newline at end of file
