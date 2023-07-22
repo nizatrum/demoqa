@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationFormWithVariablesRandomTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-25T20:53:18" hostname="MacBook-Pro-MACBOOK.local" time="4.856">
+<testsuite name="tests.RegistrationFormWithVariablesRandomTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-22T19:18:09" hostname="MacBook-Pro-MACBOOK.local" time="9.72">
   <properties/>
-  <testcase name="fillFormTest()" classname="tests.RegistrationFormWithVariablesRandomTests" time="4.856"/>
+  <testcase name="fillFormTest()" classname="tests.RegistrationFormWithVariablesRandomTests" time="9.72"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 36422
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1677358400.042][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
-февр. 26, 2023 12:53:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: 109
+1690053489713	geckodriver	INFO	Listening on 127.0.0.1:22894
+1690053489846	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:29278/" "-foreground" "-no-remote" "-profile" "/var/folders/53/yqwdbd614f37d8jcrs9qxcpw0000gn/T/rust_mozprofile6kCh2G"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1690053490231	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+1690053490343	Marionette	INFO	Listening on port 55820
+Read port: 55820
+WebDriver BiDi listening on ws://127.0.0.1:29278
+1690053490398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:29278/devtools/browser/d097a81a-1fde-4825-a5aa-23dba6a56ffb
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
+1690053499121	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:55903
+1690053499124	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1690053499138	Marionette	INFO	Stopped listening on port 55820
 ]]></system-err>
 </testsuite>

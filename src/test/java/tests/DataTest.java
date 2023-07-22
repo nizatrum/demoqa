@@ -13,7 +13,7 @@ public class DataTest {
     public static String birthDay = "21";
     public static String birthMonth = "March";
     public static String birthYear = "1995";
-    public static String[] subjects = new String[]{"Maths", "Social Studies"};
+    public static String subject = "Social Studies";
     public static String[] hobbies = new String[]{"Sports", "Music"};
     public static File picture = new File("src/test/resources/neo.jpg");
     public static String currentAddress = "some address";

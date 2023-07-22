@@ -1,11 +1,15 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import org.openqa.selenium.By;
 import pages.components.CalendarComponent;
 
+import javax.xml.datatype.Duration;
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
+import static com.codeborne.selenide.Selectors.byClassName;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -20,6 +24,7 @@ public class RegistrationPage {
     SelenideElement phoneNumberInput = $("#userNumber");
     SelenideElement dateOfBirthInput = $("#dateOfBirthInput");
     SelenideElement subjectsInput = $("#subjectsInput");
+    SelenideElement subjectsList = $(byClassName("subjects-auto-complete__menu-list"));
     SelenideElement hobbiesInput = $("#hobbiesWrapper");
     SelenideElement pictureLoading = $("#uploadPicture");
     SelenideElement currentAddressInput = $("#currentAddress");
@@ -58,9 +63,10 @@ public class RegistrationPage {
         calendarComponent.datePadding(day, month, year);
         return this;
     }
-    public RegistrationPage setSubjects(String[] subjects) {
-        for (String subject : subjects)
-            subjectsInput.setValue(subject).pressEnter();
+    public RegistrationPage setSubjects(String subject) {
+        subjectsInput.setValue(subject);
+        //оптимизировать
+        subjectsList.$(byText(subject)).click();
         return this;
     }
     public RegistrationPage setHobbies(String[] hobbies) {

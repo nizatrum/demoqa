@@ -14,6 +14,8 @@ public class BaseTest {
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
+        Configuration.browser = "firefox";
+        Configuration.pageLoadStrategy = "eager";
     }
     @BeforeEach
     void beforeEach() {
