@@ -2,9 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.*;
 import pages.RegistrationPage;
 
 
@@ -26,5 +24,10 @@ public class BaseTest {
     @AfterAll
     static void afterAll() {
         Selenide.closeWebDriver();
+    }
+
+    @Test
+    void test() {
+        Assertions.assertTrue(true);
     }
 }
