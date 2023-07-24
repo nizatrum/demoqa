@@ -9,7 +9,7 @@ import static tests.DataTest.*;
 public class RegistrationFormWithVariablesRandomTests extends BaseTest {
     RegistrationPage registrationPage = new RegistrationPage();
     @Test
-    void fillFormTest() {
+    void fillFormTestWithRandomVariables() {
         registrationPage.setFirstName(firstName)
                 .setLastName(lastName)
                 .setEmail(email)
