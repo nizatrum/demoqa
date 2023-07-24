@@ -42,6 +42,5 @@ public class BaseTest {
     void addAttachments() {
         Attach.screenshotAs("Last screenshot");
         Attach.pageSource();
-        Attach.browserConsoleLogs();;
     }
 }
