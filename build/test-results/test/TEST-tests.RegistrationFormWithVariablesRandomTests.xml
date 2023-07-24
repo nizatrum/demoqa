@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationFormWithVariablesRandomTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-23T21:50:54" hostname="MacBook-Pro-MACBOOK.local" time="11.022">
+<testsuite name="tests.RegistrationFormWithVariablesRandomTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-24T06:06:48" hostname="MacBook-Pro-MACBOOK.local" time="11.991">
   <properties/>
-  <testcase name="test()" classname="tests.RegistrationFormWithVariablesRandomTests" time="3.799"/>
-  <testcase name="fillFormTest()" classname="tests.RegistrationFormWithVariablesRandomTests" time="7.222"/>
+  <testcase name="test()" classname="tests.RegistrationFormWithVariablesRandomTests" time="4.706"/>
+  <testcase name="fillFormTest()" classname="tests.RegistrationFormWithVariablesRandomTests" time="7.283"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
-1690149055202	geckodriver	INFO	Listening on 127.0.0.1:19995
-1690149055348	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:36430/" "-foreground" "-no-remote" "-profile" "/var/folders/53/yqwdbd614f37d8jcrs9qxcpw0000gn/T/rust_mozprofileBx2JrK"
+  <system-err><![CDATA[1690178809191	geckodriver	INFO	Listening on 127.0.0.1:46990
+1690178809374	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:39195/" "-foreground" "-no-remote" "-profile" "/var/folders/53/yqwdbd614f37d8jcrs9qxcpw0000gn/T/rust_mozprofileI8UmWc"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1690149055747	Marionette	INFO	Marionette enabled
+1690178809724	Marionette	INFO	Marionette enabled
 console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
 console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
-1690149055950	Marionette	INFO	Listening on port 53935
-WebDriver BiDi listening on ws://127.0.0.1:36430
-Read port: 53935
-1690149056078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1690178809863	Marionette	INFO	Listening on port 54841
+WebDriver BiDi listening on ws://127.0.0.1:39195
+Read port: 54841
+1690178810017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
-DevTools listening on ws://127.0.0.1:36430/devtools/browser/8b82a596-27e5-424b-9367-2c20702cc385
+DevTools listening on ws://127.0.0.1:39195/devtools/browser/07f71d62-c88d-4d80-8c04-10de442deb46
 JavaScript error: https://cdn.ad.plus/player/adplus.js, line 402: TypeError: g(...).setup is not a function
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://demoqa.com."
-1690149065936	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:53989
-1690149065940	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1690149065953	Marionette	INFO	Stopped listening on port 53935
+1690178820309	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:54892
+1690178820312	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1690178820338	Marionette	INFO	Stopped listening on port 54841
 ]]></system-err>
 </testsuite>
