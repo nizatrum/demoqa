@@ -67,17 +67,17 @@ public class RegistrationFormTests extends BaseTest {
             registrationPage.confirmForm();
         });
 
-        // checks
-
-        registrationPage.checkForm("Student Name", firstName + " " + lastName)
-                .checkForm("Student Email", email)
-                .checkForm("Gender", gender)
-                .checkForm("Mobile", phoneNumber)
-                .checkForm("Date of Birth", String.format("%s %s,%s", birthDay, birthMonth, birthYear))
-                .checkForm("Subjects", subject)
-                .checkForm("Hobbies", String.format("%s, %s", hobbies[0], hobbies[1]))
-                .checkForm("Picture", picture.getName())
-                .checkForm("Address", currentAddress)
-                .checkForm("State and City", String.format("%s %s", state, city));
+        step("Проверка заполнения полей", () -> {
+            registrationPage.checkForm("Student Name", firstName + " " + lastName)
+                    .checkForm("Student Email", email)
+                    .checkForm("Gender", gender)
+                    .checkForm("Mobile", phoneNumber)
+                    .checkForm("Date of Birth", String.format("%s %s,%s", birthDay, birthMonth, birthYear))
+                    .checkForm("Subjects", subject)
+                    .checkForm("Hobbies", String.format("%s, %s", hobbies[0], hobbies[1]))
+                    .checkForm("Picture", picture.getName())
+                    .checkForm("Address", currentAddress)
+                    .checkForm("State and City", String.format("%s %s", state, city));
+        });
     }
 }

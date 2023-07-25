@@ -1,7 +1,6 @@
 package utils;
 
 import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomUtils {
     static String alphabetChars = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";

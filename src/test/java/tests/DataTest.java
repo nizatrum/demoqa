@@ -3,8 +3,6 @@ package tests;
 import java.io.File;
 
 public class DataTest {
-
-    //variables static mode, but we don't create object RegistrationFormTests
     public static String firstName = "Timur";
     public static String lastName = "Murtazin";
     public static String email = "mytestmail@company.com";

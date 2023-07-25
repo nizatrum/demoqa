@@ -2,14 +2,11 @@ package pages;
 
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
 import pages.components.CalendarComponent;
 
-import javax.xml.datatype.Duration;
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
-import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byClassName;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
@@ -37,7 +34,8 @@ public class RegistrationPage {
     //actions
 
     public static void openPage() {
-        Selenide.open();
+        Selenide.open("/automation-practice-form");
+        //RegistrationPage.removeInterceptingButtonElements();
     }
     public static void removeInterceptingButtonElements() {
         executeJavaScript("$('footer').hide()");

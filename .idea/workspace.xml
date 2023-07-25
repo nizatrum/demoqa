@@ -5,12 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a902aa97-cd10-4136-993a-3c1701c66999" name="Changes" comment="added attachments">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/pages/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/DataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/DataTestWithVariablesRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationFormTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationFormTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/tests/RegistrationFormWithVariablesRandomTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/utils/RandomUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/utils/RandomUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/tests.RegistrationFormWithVariablesRandomTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-tests.RegistrationFormWithVariablesRandomTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DataTestWithVariablesRandom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DataTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RegistrationFormWithVariablesRandomTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RandomUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +55,23 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="demoqa-tests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoqa-tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoqa-tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testCompileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoqa-tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="testRuntimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -113,7 +151,7 @@
       <recent name="tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationFormWithVariablesRandomTests">
+  <component name="RunManager" selected="Gradle.demoqa-tests [allureServe]">
     <configuration name="RegistrationFormTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -206,25 +244,23 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="automationPracticeFormTest.fillFormTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="demoqa-tests [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;homeWorksTests.automationPracticeFormTest.fillFormTest&quot;" />
+            <option value="allureServe" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -244,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationFormWithVariablesRandomTests" />
+        <item itemvalue="Gradle.demoqa-tests [allureServe]" />
         <item itemvalue="Gradle.RegistrationFormTests" />
         <item itemvalue="Gradle.RegistrationFormWithVariablesRandomTests.fillFormTest" />
+        <item itemvalue="Gradle.RegistrationFormWithVariablesRandomTests" />
         <item itemvalue="Gradle.RegistrationFormTests.fillFormTest" />
-        <item itemvalue="Gradle.automationPracticeFormTest.fillFormTest" />
       </list>
     </recent_temporary>
   </component>

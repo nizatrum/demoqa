@@ -7,14 +7,12 @@ import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import pages.RegistrationPage;
-
 
 
 public class BaseTest {
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://demoqa.com/automation-practice-form";
+        Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
         Configuration.browser = "firefox";
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -25,11 +23,6 @@ public class BaseTest {
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
 
-    }
-
-    @BeforeEach
-    void beforeEach() {
-        RegistrationPage.removeInterceptingButtonElements();
     }
 
     @AfterAll
