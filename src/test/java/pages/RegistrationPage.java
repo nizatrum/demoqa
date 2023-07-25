@@ -1,5 +1,6 @@
 package pages;
 
+import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
 import org.openqa.selenium.By;
 import pages.components.CalendarComponent;
@@ -34,6 +35,10 @@ public class RegistrationPage {
     SelenideElement submitButton = $("#submit");
     SelenideElement resultTable = $(".table-responsive");
     //actions
+
+    public static void openPage() {
+        Selenide.open();
+    }
     public static void removeInterceptingButtonElements() {
         executeJavaScript("$('footer').hide()");
         executeJavaScript("$('#close-fixedban').parent().hide();");
