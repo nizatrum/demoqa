@@ -19,11 +19,11 @@ public class BaseTest {
         Configuration.browser = "firefox";
         SelenideLogger.addListener("allure", new AllureSelenide());
         Configuration.pageLoadStrategy = "eager";
-//        Configuration.remote = "http://10.155.56.61:4444/wd/hub/";
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("enableVNC", true);
-//        capabilities.setCapability("enableVideo", true);
-//        Configuration.browserCapabilities = capabilities;
+        Configuration.remote = "http://10.155.56.61:4444/wd/hub/";
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+        Configuration.browserCapabilities = capabilities;
 
     }
 //6.9.1
@@ -32,10 +32,10 @@ public class BaseTest {
         Selenide.closeWebDriver();
     }
 
-//    @AfterEach
-//    void addAttachments() {
-//        Attach.screenshotAs("Last screenshot");
-//        Attach.pageSource();
-//        Attach.addVideo();
-//    }
+    @AfterEach
+    void addAttachments() {
+        Attach.screenshotAs("Last screenshot");
+        Attach.pageSource();
+        Attach.addVideo();
+    }
 }
