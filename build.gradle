@@ -57,3 +57,8 @@ task telegram(type: Test) {
         includeTags("telegram")
     }
 }
+task demoqa(type: Test) {
+    useJUnitPlatform {
+        includeTags("demoqa")
+    }
+}

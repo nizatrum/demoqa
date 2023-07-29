@@ -1,13 +1,14 @@
 package demoqa.tests;
 
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import demoqa.pages.RegistrationPage;
 
 import static io.qameta.allure.Allure.step;
 import static demoqa.tests.DataTest.*;
 
-
+@Tag("demoqa")
 public class RegistrationFormTests extends BaseTest {
     RegistrationPage registrationPage = new RegistrationPage();
     @Test
