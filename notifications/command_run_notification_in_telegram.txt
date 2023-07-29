@@ -1,3 +1,7 @@
 java \
+"-DprojectName=${PROJECT_NAME}"\
+"-Denv=${ENVIRONMENT}"
+"-Dcomm=${COMMENT}"
+"-DreportLink=${REPORT_LINK}"
 "-DconfigFile=notifications/telegram_config.json" \
 -jar notifications/allure-notifications-4.3.0.jar
